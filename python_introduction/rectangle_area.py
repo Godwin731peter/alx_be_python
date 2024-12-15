@@ -1,6 +1,6 @@
 #!/bin/bash
 # Creating variables
-length =  10
+length = 10
 width = 5
 # Calculating area of a rectangle
 area = length * width
