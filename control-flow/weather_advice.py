@@ -1,14 +1,13 @@
 #!/bin/bash
-# Weather conditions variable
-weather = ["sunny", "rainy", "cold"]
+# Weather conditions 
 user_weather = input("What's the weather like today? (sunny/rainy/cold):")
 
 # condition statement
-if user_weather == weather[0]:
+if user_weather == "sunny":
     print("Wear a t-shirt and sunglasses.")
-elif user_weather == weather[1]:
+elif user_weather == "rainy":
     print("Don't forget your umbrella and a raincoat.")
-elif user_weather == weather[2]:
+elif user_weather == "cold":
     print("Make sure to wear a warm coat and a scarf.")
 else:
     print("Sorry, I don't have recommendations for this weather.")
