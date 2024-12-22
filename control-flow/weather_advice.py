@@ -1,6 +1,6 @@
 #!/bin/bash
 # Weather conditions variable
-weather = ['sunny', 'rainy', 'cold']
+weather = ["sunny", "rainy", "cold"]
 user_weather = input("What's the weather like today? (sunny/rainy/cold):")
 
 # condition statement
