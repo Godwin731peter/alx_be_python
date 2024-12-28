@@ -1,6 +1,6 @@
 #!/bin/bash
 # Weather conditions 
-user_weather = input("What's the weather like today? (sunny/rainy/cold):").strip().lower()
+input("What's the weather like today? (sunny/rainy/cold):").strip().lower()
 
 # condition statement
 if "sunny":
