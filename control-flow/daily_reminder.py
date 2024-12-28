@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # User indication variable
-task = input("Enter your task:")
-priority = input("Priority (high/medium/low):")
-time_bound = input("Is it time-bound?")
+task = input("Enter your task: ")
+priority = input("Priority (high/medium/low): ")
+time_bound = input("Is it time-bound? (yes/no) ")
 
 match priority:
   case "high":
