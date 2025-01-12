@@ -7,7 +7,7 @@ def display_current_datetime():
   # display the current date and time in the format YYYY-MM-DD HH:MM:SS.
   print(f"current date and time: {current_date.strftime('%Y-%m-%d %H:%M:%S')}")
 
-number_of_days = input("Enter number of days to add to the current date:")
+number_of_days = input("Enter the number of days to add to the current date:")
 
 def calculate_future_date():
   # getting the current date
