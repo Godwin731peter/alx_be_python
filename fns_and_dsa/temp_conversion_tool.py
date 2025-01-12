@@ -21,3 +21,5 @@ if unit == "F":
 elif unit == "C":
   result = convert_to_fahrenheit(temp)
   print(f"{temp}°C is {converted_temp:.2f}°F")
+else:
+  raise ValueError("Invalid temperature. Please enter a numeric value.")
