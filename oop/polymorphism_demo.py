@@ -1,4 +1,5 @@
 #!/bin/bash
+import math
 class Shape:
   def area(self):
     # should be overriden by other class
