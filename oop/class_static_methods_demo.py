@@ -1,6 +1,6 @@
 #!/bin/bash
 class Calculator:
-  calculate_type = "Arithmetic operations"
+  calculation_type = "Arithmetic Operations"
 
   @staticmethod
   def add(a, b):
@@ -8,5 +8,5 @@ class Calculator:
   
   @classmethod
   def multiply(cls, a, b):
-    print(f"Calculation type: {cls.calculate_type}")
+    print(f"Calculation type: {cls.calculation_type}")
     return a * b
